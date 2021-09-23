@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>  
+  <title>Feed</title>
+</head>
+<body class="bg-light">
+  <!-- 헤더. 사소한 간격 -->
+  <header class="p-3 mb-3 border-bottom bg-white">
+    <div class="container">
+      <div class="d-flex col-12 align-items-center justify-content-between">
+        <a href="/" class="d-flex col-2 align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <img src="images/800px-Instagram_logo.svg.png" class="bi me-2"  height="32" role="img" aria-label="Bootstrap"></img>
+        </a>
+
+        
+        <form class="col-lg-3 d-none d-lg-block mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="d-flex row">
+          <ul class="nav col col-lg-auto me-lg-auto mb-2 justify-content-end mb-md-0">
+              <div class="row row-cols-4">
+                <li class="p-0"><a href="#" class="nav-link col link-secondary"><img src="images/icons/home.png" height="32"></a></li>
+                <li class="p-0"><a href="#" class="nav-link col link-dark"><img src="images/icons/DM.png" height="32"></a></li>
+                <li class="p-0"><a href="#" class="nav-link col link-dark"><img src="images/icons/7136510.png" height="32"></a></li>
+                <li class="p-0"><a href="#" class="nav-link col link-dark"><img src="images/icons/images.png" height="32"></a></li>
+              </div>
+            </ul>
+          <div class="dropdown col col-1 text-end">
+            <a href="#" class="link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
+              <li><a class="dropdown-item" href="#">New project...</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <!-- 몸체 전체 -->
+  <div class="container">
+    <!-- 사이드바와 본문 들어가는 dvi -->
+    <div class="row row-cols-2 justify-content-center">
+      <!-- 본문 col.  -->
+      <div class="col col-12 col-md-9">
+        <!-- 카드 1 -->
+        <div class="card">
+          <!-- 카드 머릿말.  -->
+          <div class="card-header bg-white">
+            <div class="row justify-contents-between">
+              <!-- 프사, 닉 -->
+              <div class="row row-cols-2 col-3">
+                <!-- 프사 -->
+                <div class="dropdown col col-1 text-end">
+                  <a href="profile.html"><img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"></a>
+          
+                </div>
+                <!-- 닉 -->
+              </div>
+              <!-- 버튼 -->
+              <div class="offset-8 col-1 justify-content-end">
+                <button type="button" class="btn btn-white" data-bs-toggle="modal" data-bs-target="#report1">
+                  ...
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- 카드 바디 -->
+          <div class="card-body">
+            <img src="images/insta_photo/haxe-cut.jpg" class="card-img-top" alt="insta-photo">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 사이드바 col -->
+      <div class="col-3 d-none d-md-block">
+        <div class="container">
+          <div class="row ">
+            <img src="images/insta_photo/profile.jpg" class="col-5 rounded-circle" width="200px">
+            <div class="col">
+              <div class="container">
+                <div class="row">
+                  <h1 class="col">이름이름</h1>
+                  <button button type="button" class="col btn mt-1 btn-outline-secondary fw-bold m-3">switch</button>
+                </div>
+                <h3>ㄴㄴㄴ</h3>
+                <p>ㄴㄴㄴㄴㄴ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모달 모음 -->
+
+  <div>
+    <!-- 버튼 모달 -->
+    <div class="modal modal-dialog modal-dialog-centered modal-dialog-scrollable" id="report1" tabindex="-1" area-labelledby="report1" aria-hidden="true">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="report1">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>This is some placeholder content to show a vertically centered modal. We've added some extra copy here to show how vertically centering the modal works when combined with scrollable modals. We also use some repeated line breaks to quickly extend the height of the content, thereby triggering the scrolling. When content becomes longer than the prefedined max-height of modal, content will be cropped and scrollable within the modal.</p>
+          <br><br><br><br><br><br><br><br><br><br>
+          <p>Just like that.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

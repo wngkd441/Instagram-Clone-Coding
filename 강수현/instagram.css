@@ -1,0 +1,102 @@
+body {
+  padding-top: 110px;
+  padding-bottom: 50px;
+  background-color: rgb(250, 250, 250);
+}
+
+.logo-size {
+  width: 170px;
+  height: auto;
+}
+
+.iphone {
+  flex: 0 0 100px;
+}
+
+.parent {
+  position: relative;
+}
+
+.moving-img {
+  position: absolute;
+  top: 99px;
+  left: 150px;
+}
+
+.login {
+  width: 350px;
+  height: 380px;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px; 
+  border: 1px solid rgb(219, 219, 219);
+}
+
+.icon {
+  width: 16px;
+  height: auto;
+}
+
+.facebook {
+  color: rgb(59, 89, 152);
+}
+
+.fs-14px {
+  font-size: 14px;
+}
+
+.fs-10px {
+  font-size: 12px;
+}
+
+.signin {
+  width: 350px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border: 1px solid rgb(219, 219, 219);
+}
+
+@media (max-width: 576px) {
+  .mobile {
+    background-color: rgb(250, 250, 250);
+    border: 0px;
+  }
+}
+
+.app {
+  width: 350px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  padding: 0;
+}
+
+.download-img {
+  height: 40px;
+}
+
+.logo-font {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+}
+
+.gap {
+  margin-bottom: 70px;
+}
+
+select {
+  text-align-last: center;
+  width: 70px;
+  color: rgb(109, 116, 125);
+  border: 0px;
+  background-color: rgb(250, 250, 250)
+}

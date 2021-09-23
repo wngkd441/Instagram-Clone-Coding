@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="instagram_feed.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="./favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <title>Instagram</title>
+</head>
+<body class="padding-top">
+  <!-- 헤더 -->
+  <header>
+    <div class="flex-container">
+      <!-- 로고 -->
+      <div class="mt-1 for-search">
+        <img src="./feed/intragram_feed_logo.png" alt="logo">
+      </div>
+
+      <!-- 검색 -->
+      <form action="#" class="search">
+        <input type="search" name="search" placeholder="검색">
+      </form>
+
+
+      <!-- 메뉴 아이콘 -->
+      <div class="flex-icon">
+        <a href="#">
+          <img src="./feed/home.png" alt="home">
+        </a>
+        <a href="#">
+          <img src="./feed/message.png" alt="message">
+        </a>
+        <a href="#">
+          <img src="./feed/explore.png" alt="explore">
+        </a>
+        <a href="#">
+          <img src="./feed/heart.png" alt="heart">
+        </a>
+        <a href="#">
+          <img src="./feed/profile.jpg" alt="profile" class="profile-img">
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 중심 화면 -->
+  <section class="flex-article">
+    <!-- 스토리와 게시글 -->
+    <div class="flex-content">
+
+      <!-- 스토리 -->
+      <div>
+        <ul class="post story">
+          <li>
+              <div>
+              <a href="#">
+                <img src="./feed/profile.jpg" alt="" class="story-img">
+              </a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none">user_ID</a>
+            </div>
+          </li>  
+          <li>
+            <div>
+              <a href="#">
+                <img src="./feed/profile.jpg" alt="" class="story-img">
+              </a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none">user_ID</a>
+            </div>
+          </li>  
+          <li>
+            <div>
+              <a href="#">
+                <img src="./feed/profile.jpg" alt="" class="story-img">
+              </a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none">user_ID</a>
+            </div>
+          </li>
+          <li>
+            <div>
+              <a href="#">
+                <img src="./feed/profile.jpg" alt="" class="story-img">
+              </a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none">user_ID</a>
+            </div>
+          </li>  
+          <li>
+            <div>
+              <a href="#">
+                <img src="./feed/profile.jpg" alt="" class="story-img">
+              </a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none">user_ID</a>
+            </div>
+          </li>  
+          <li>
+            <div>
+              <a href="#">
+                <img src="./feed/profile.jpg" alt="" class="story-img">
+              </a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none">user_ID</a>
+            </div>
+          </li>  
+          <li>
+            <div>
+              <a href="#">
+                <img src="./feed/profile.jpg" alt="" class="story-img">
+              </a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none">user_ID</a>
+            </div>
+          </li>  
+          <li>
+            <div>
+              <a href="#">
+                <img src="./feed/profile.jpg" alt="" class="story-img">
+              </a>
+            </div>
+            <div>
+              <a href="#" class="text-decoration-none">user_ID</a>
+            </div>
+          </li>  
+        
+        </ul>
+      </div>
+
+      <!-- 게시글 -->
+      <div>
+        <article class="post">
+          <!-- 게시글 업로더 -->
+          <div class="post-uploader">
+            <div>
+              <img src="./feed/profile.jpg" alt="#">
+              <a href="#" class="text-decoration-none post-uploader-ID align-middle">user_ID</a>
+            </div>
+            <div>
+              <a href="#">
+                <img src="./feed/more.png" alt="#" style="width: 16px; height: 16px;">
+              </a>
+            </div>
+          </div>
+          
+          <!-- 사진 -->
+          <div>
+            <img src="./feed/profile.jpg" alt="">
+          </div>
+
+        </article>
+
+      </div>
+
+    </div>
+    
+
+    <!-- 우측 고정 -->
+    <aside>
+      <!-- 본인 프로필 -->
+      <div class="flex-aside py-4">
+        <div class="d-flex">
+          <img src="./feed/profile.jpg" alt="profile" class="large-profile">
+
+          <div class="profile-info ps-3">
+            <span class="fw-bold">user_ID</span>
+            <span class="grey-color">user_nickname</span>
+          </div>
+        </div>
+        <a href="#" class="blue-text text-decoration-none">전환</a>
+      </div>
+
+      <!-- 회원님을 위한 추천 -->
+      <div class="d-flex justify-content-between pb-3">
+        <span class="fs-14 grey-color fw-bold">회원님을 위한 추천</span>
+        <a href="#" class="text-decoration-none fs-12 text-black">모두 보기</a>
+      </div>
+
+      <!-- 추천 회원 목록 -->
+      <div class="flex-aside mb-3">
+        <div class="d-flex px-1 align-items-center">
+          <img src="./feed/profile.jpg" alt="profile" class="medium-profile">
+          <div class="recommendation ps-12px">
+            <span class="fw-bold">recommend_user_ID</span>
+            <span class="grey-color fs-12">friend_user_ID님이 팔로우합니다</span>
+          </div>
+        </div>
+        
+        <a href="#" class="blue-text text-decoration-none">팔로우</a>
+      </div>
+
+      <div class="flex-aside mb-3">
+        <div class="d-flex px-1 align-items-center">
+          <img src="./feed/profile.jpg" alt="profile" class="medium-profile">
+          <div class="recommendation ps-12px">
+            <span class="fw-bold">recommend_user_ID</span>
+            <span class="grey-color fs-12">friend_user_ID님이 팔로우합니다</span>
+          </div>
+        </div>
+        
+        <a href="#" class="blue-text text-decoration-none">팔로우</a>
+      </div>
+
+      <div class="flex-aside mb-3">
+        <div class="d-flex px-1 align-items-center">
+          <img src="./feed/profile.jpg" alt="profile" class="medium-profile">
+          <div class="recommendation ps-12px">
+            <span class="fw-bold">recommend_user_ID</span>
+            <span class="grey-color fs-12">friend_user_ID님이 팔로우합니다</span>
+          </div>
+        </div>
+        
+        <a href="#" class="blue-text text-decoration-none">팔로우</a>
+      </div>
+
+      <div class="flex-aside mb-3">
+        <div class="d-flex px-1 align-items-center">
+          <img src="./feed/profile.jpg" alt="profile" class="medium-profile">
+          <div class="recommendation ps-12px">
+            <span class="fw-bold">recommend_user_ID</span>
+            <span class="grey-color fs-12">friend_user_ID님이 팔로우합니다</span>
+          </div>
+        </div>
+        
+        <a href="#" class="blue-text text-decoration-none">팔로우</a>
+      </div>
+
+      <div class="flex-aside mb-3">
+        <div class="d-flex px-1 align-items-center">
+          <img src="./feed/profile.jpg" alt="profile" class="medium-profile">
+          <div class="recommendation ps-12px">
+            <span class="fw-bold">recommend_user_ID</span>
+            <span class="grey-color fs-12">friend_user_ID님이 팔로우합니다</span>
+          </div>
+        </div>
+        
+        <a href="#" class="blue-text text-decoration-none">팔로우</a>
+      </div>
+
+      <!-- 사이트 정보 -->
+      <div class="pt-3 for-fitting">
+        <a href="#" class="text-decoration-none info">소개</a>
+        <span class="info p-2px fw-bold">·</span>
+        <a href="#" class="text-decoration-none info">도움말</a>
+        <span class="info p-2px fw-bold">·</span>
+        <a href="#" class="text-decoration-none info">홍보 센터</a>
+        <span class="info p-2px fw-bold">·</span>
+        <a href="#" class="text-decoration-none info">API</a> 
+        <span class="info p-2px fw-bold">·</span>
+        <a href="#" class="text-decoration-none info">채용 정보</a>
+        <span class="info p-2px fw-bold">·</span><br>
+        <a href="#" class="text-decoration-none info">개인정보처리방침</a>  
+        <span class="info p-2px fw-bold">·</span>
+        <a href="#" class="text-decoration-none info">약관</a>
+        <span class="inf p-2px fw-bold">·</span>
+        <a href="#" class="text-decoration-none info">위치</a>   
+        <span class="info p-2px fw-bold">·</span> 
+        <a href="#" class="text-decoration-none info">인기 계정</a>  
+        <span class="info p-2px fw-bold">·</span>
+        <a href="#" class="text-decoration-none info">해시태그</a>  
+        <span class="info p-2px fw-bold">·</span>
+        <a href="#" class="text-decoration-none info">언어</a>  
+        
+        <div class="pt-3">
+          <span class="info fw-bold">© 2021 INSTAGRAM FROM FACEBOOK</span>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

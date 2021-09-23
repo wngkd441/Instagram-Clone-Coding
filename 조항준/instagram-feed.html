@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap css -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="instagram-bootfeed.css">
+  <!-- Custom css -->
+  <link rel="stylesheet" href="instagram-feed.css">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/instagram-logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/instagram-logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/instagram-logo.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Title -->
+  <title>Hans' Feed</title>
+</head>
+<body>
+  <!-- 1. Navbar -->
+  <nav class="navbar navbar-light bg-light border-bottom fixed-top navbar-margin ">
+    <!-- 1-1. Container -->
+    <div class="container-fluid justify-content-between px-0 navbar-size">
+      <!-- 1-1-1. Navbar-brand -->
+      <a href="">
+        <img src="images/instagram-letter.png" alt="instagram-letter">
+      </a>
+      <!-- 1-1-2. Search -->
+      <input type="text" placeholder="검색" class="input-placeholder input-display">
+      <!-- 1-1-3. Lists -->
+      <div class="navbar-nav flex-row">
+        <a class="nav-link mx-2" href="#">
+          <img src="images/instagram-home.png" alt="Home" class="nav-icon-size">
+        </a>
+        <a class="nav-link mx-2" href="#">
+          <img src="images/instagram-dm.png" alt="DM" class="nav-icon-size">
+        </a>
+        <a class="nav-link mx-2" href="#">
+          <img src="images/instagram-find.png" alt="Find" class="nav-icon-size">
+        </a>
+        <a class="nav-link mx-2" href="#">
+          <img src="images/instagram-likes.png" alt="Likes" class="nav-icon-size">
+        </a>
+        <a class="nav-link mx-2" href="#">
+          <img src="images/instagram-profile.png" alt="My profile" class="nav-icon-size">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2. Section -->
+  <section class="section-margin section-size row">
+    <!-- 2-1. Feed -->
+    <div class="feed-width section-display">
+      <!-- 2-1-1. Story -->
+      <div class="d-flex justify-content-start align-items-center border story-padding w-100 story-overflow">
+        <a href="#" class="card-width text-decoration-none text-center mx-1">
+          <img src="images/instagram-friend1.png" class="card-img-top story-profile-size" alt="first-stroy">
+          <p class="card-text card-font mt-2">Username1</p>
+        </a>
+        <a href="#" class="card-width text-decoration-none text-center mx-1">
+          <img src="images/instagram-friend1.png" class="card-img-top story-profile-size" alt="first-stroy">
+          <p class="card-text card-font mt-2">Username1</p>
+        </a>
+        <a href="#" class="card-width text-decoration-none text-center mx-1">
+          <img src="images/instagram-friend1.png" class="card-img-top story-profile-size" alt="first-stroy">
+          <p class="card-text card-font mt-2">Username1</p>
+        </a>
+        <a href="#" class="card-width text-decoration-none text-center mx-1">
+          <img src="images/instagram-friend1.png" class="card-img-top story-profile-size" alt="first-stroy">
+          <p class="card-text card-font mt-2">Username1</p>
+        </a>
+        <a href="#" class="card-width text-decoration-none text-center mx-1">
+          <img src="images/instagram-friend1.png" class="card-img-top story-profile-size" alt="first-stroy">
+          <p class="card-text card-font mt-2">Username1</p>
+        </a>
+        <a href="#" class="card-width text-decoration-none text-center mx-1">
+          <img src="images/instagram-friend1.png" class="card-img-top story-profile-size" alt="first-stroy">
+          <p class="card-text card-font mt-2">Username1</p>
+        </a>
+        <a href="#" class="card-width text-decoration-none text-center mx-1">
+          <img src="images/instagram-friend1.png" class="card-img-top story-profile-size" alt="first-stroy">
+          <p class="card-text card-font mt-2">Username1</p>
+        </a>
+        <a href="#" class="card-width text-decoration-none text-center mx-1">
+          <img src="images/instagram-friend1.png" class="card-img-top story-profile-size" alt="first-stroy">
+          <p class="card-text card-font mt-2">Username1</p>
+        </a>
+        <a href="#" class="card-width text-decoration-none text-center mx-1">
+          <img src="images/instagram-friend1.png" class="card-img-top story-profile-size" alt="first-stroy">
+          <p class="card-text card-font mt-2">Username1</p>
+        </a>
+      </div>
+      <!-- 2-1-2. Article -->
+      <article class="article-margin-top">
+        <div class="border">
+          <!-- 2-1-2-1. Header -->
+          <div class="d-flex justify-content-between align-items-center mx-3">
+            <!-- 2-1-2-1-1. Left -->
+            <div>
+              <!-- 2-1-2-1-1-1. logo -->
+              <a href="">
+                <img src="images/instagram-profile.png" alt="name-logo" class="feed-header-profile-size my-3 me-3">
+              </a>
+              <!-- 2-1-2-1-1-2. Name -->
+              <a href="" class="text-dark fw-bold card-text-font-size name">
+                Hans
+              </a>
+              <div class="name-display">
+                호버창
+              </div>
+              
+            </div>
+            <!-- 2-1-2-1-3. Right(more) -->
+            <button type="button" class="btn three-dot-font" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              ...
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-size">
+                <div class="modal-content modal-radius">
+                  <div class="modal-body modal-font-size">
+                    <a href="#" class="text-danger fw-bold text-center">
+                     <p>신고</p>
+                    </a>
+                    <hr>
+                    <a href="#" class="text-danger fw-bold text-center">
+                      <p>팔로우 취소</p>
+                    </a>
+                    <hr>
+                    <a href="#" class="text-dark text-center">
+                      <p>게시물로 이동</p>
+                    </a>
+                    <hr>
+                    <a href="#" class="text-dark text-center">
+                      <p>공유 대상...</p>
+                    </a>
+                    <hr>
+                    <a href="#" class="text-dark text-center">
+                      <p>링크 복사</p>
+                    </a>
+                    <hr>
+                    <a href="#" class="text-dark text-center">
+                      <p>퍼가기</p>
+                    </a>
+                    <hr>
+                    <a href="#" class="text-dark text-center">
+                      <p>취소</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2-1-2-2. Main feed -->
+            <div class="card">
+              <!-- 2-1-2-2-1. Main feed images -->
+              <div class="card-img-top">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-interval="false">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/instagram-comments.png" class="d-block w-100" alt="Article 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/instagram-dm.png" class="d-block w-100" alt="Article 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/instagram-friend1.png" class="d-block w-100" alt="Article 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/instagram-tag.png" class="d-block w-100" alt="Article 4">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/instagram-find.png" class="d-block w-100" alt="Article 5">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/instagram-likes.png" class="d-block w-100" alt="Article 6">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- 2-1-2-2-2. Main feed body -->
+              <div class="card-body">
+                <!-- 2-1-2-2-2-1. Main feed body header -->
+                <div class="d-flex justify-content-between">
+                  <!-- 2-1-2-2-2-1-1. Left -->
+                  <div>
+                    <a href="" class="feed-icon-size text-decoration-none">
+                      <img src="images/instagram-likes.png" alt="likes" class="feed-icon-size mx-1">
+                    </a>
+                    <a href="" class="feed-icon-size text-decoration-none">
+                      <img src="images/instagram-comments.png" alt="comments" class="feed-icon-size mx-1">
+                    </a>
+                    <a href="" class="feed-icon-size text-decoration-none">
+                      <img src="images/instagram-dm.png" alt="DM" class="feed-icon-size mx-1">
+                    </a>
+                  </div>
+                  <!-- 2-1-2-2-2-1-2. Right -->
+                  <a href="" class="feed-icon-size text-decoration-none">
+                    <img src="images/instagram-tag.png" alt="tag" class="feed-icon-size mx-1">
+                  </a>
+                </div>
+                <!-- 2-1-2-2-2-2. Main feed Text -->
+                <p class="card-text">
+                  <!-- 2-1-2-2-2-2-1. Likes -->
+                  <p class="card-text-font-size">
+                    <a href="" class="text-decoration-none text-dark fw-bold">
+                      Username1
+                    </a>
+                    <a href="" class="text-decoration-none text-dark fw-bold">
+                      여러 명
+                    </a>
+                    이 좋아합니다
+                  </p>
+                  <!-- 2-1-2-2-2-2-2. Writer -->
+                  <div class="card-text-font-size">
+                    <a href="" class="text-decoration-none text-dark fw-bold">
+                      Hans
+                    </a>
+                    위 image는 https://www.flaticon.com/search?word=profile&license=selection&style=all&order_by=4&type=icon에서 가져옴
+                    <a href="" class="text-decoration-none text-secondary">
+                      더 보기
+                    </a>
+                  </div>
+                  <!-- 2-1-2-2-2-2-3. Comments list -->
+                  <a href="" class="text-decoration-none text-secondary card-text-font-size">
+                    댓글 54개 모두 보기
+                  </a>
+                  <!-- 2-1-2-2-2-2-4. Sample comments -->
+                  <div class="card-text-font-size d-flex justify-content-between align-items-center">
+                    <div>
+                      <a href="" class="text-decoration-none text-dark fw-bold">
+                        Username3
+                      </a>
+                      Hi!
+                    </div>
+                    <img src="images/instagram-likes.png" alt="" class="feed-comments-heart-size ">
+                  </div>
+                  <div class="card-text-font-size d-flex justify-content-between align-items-center">
+                    <div>
+                      <a href="" class="text-decoration-none text-dark fw-bold">
+                        Username4
+                      </a>
+                      Hello!
+                    </div>
+                    <img src="images/instagram-likes.png" alt="" class="feed-comments-heart-size ">
+                  </div>
+                </p>
+                <hr>
+                <!-- 2-1-2-2-2-3. Write comments -->
+                <form action="">
+                  <label for="">
+                    <img src="images/instagram-smile.png" alt="" class="feed-header-profile-size">
+                  </label>
+                  <input type="text" value="댓글 달기...", style="border: none; width:84%;">
+                  <a href="">
+                    게시
+                  </a>
+                </form>
+              </div>
+            </div>
+        </div>
+      </article>
+      <!-- 2-1-3. Second Article -->
+      <article class="article-margin-top">
+        <div class="border">
+          <!-- 2-1-2-1. Header -->
+          <div class="d-flex justify-content-between align-items-center mx-3">
+            <!-- 2-1-2-1-1. Left -->
+            <div>
+              <!-- 2-1-2-1-1-1. logo -->
+              <a href="">
+                <img src="images/instagram-profile.png" alt="name-logo" class="feed-header-profile-size my-3 me-3">
+              </a>
+              <!-- 2-1-2-1-1-2. Name -->
+              <a href="" class="text-decoration-none text-dark fw-bold card-text-font-size">
+                Hans
+              </a>
+            </div>
+            <!-- 2-1-2-1-3. Right(more) -->
+            <div class="three-dot-font">
+              ...
+            </div>
+          </div>
+          <!-- 2-1-2-2. Main feed -->
+            <div class="card">
+              <!-- 2-1-2-2-1. Main feed images -->
+              <div class="card-img-top">
+                <div id="carouselExampleIndicators2" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/instagram-comments.png" class="d-block w-100" alt="Article 1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/instagram-dm.png" class="d-block w-100" alt="Article 2">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/instagram-friend1.png" class="d-block w-100" alt="Article 3">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/instagram-tag.png" class="d-block w-100" alt="Article 4">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/instagram-find.png" class="d-block w-100" alt="Article 5">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/instagram-likes.png" class="d-block w-100" alt="Article 6">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <!-- 2-1-2-2-2. Main feed body -->
+              <div class="card-body">
+                <!-- 2-1-2-2-2-1. Main feed body header -->
+                <div class="d-flex justify-content-between">
+                  <!-- 2-1-2-2-2-1-1. Left -->
+                  <div>
+                    <a href="" class="feed-icon-size text-decoration-none">
+                      <img src="images/instagram-likes.png" alt="likes" class="feed-icon-size mx-1">
+                    </a>
+                    <a href="" class="feed-icon-size text-decoration-none">
+                      <img src="images/instagram-comments.png" alt="comments" class="feed-icon-size mx-1">
+                    </a>
+                    <a href="" class="feed-icon-size text-decoration-none">
+                      <img src="images/instagram-dm.png" alt="DM" class="feed-icon-size mx-1">
+                    </a>
+                  </div>
+                  <!-- 2-1-2-2-2-1-2. Right -->
+                  <a href="" class="feed-icon-size text-decoration-none">
+                    <img src="images/instagram-tag.png" alt="tag" class="feed-icon-size mx-1">
+                  </a>
+                </div>
+              <!-- 2-1-2-2-2-2. Main feed Text -->
+              <p class="card-text">
+                <!-- 2-1-2-2-2-2-1. Likes -->
+                <p class="card-text-font-size">
+                  <a href="" class="text-decoration-none text-dark fw-bold">
+                    Username1
+                  </a>
+                  <a href="" class="text-decoration-none text-dark fw-bold">
+                    여러 명
+                  </a>
+                  이 좋아합니다
+                </p>
+                <!-- 2-1-2-2-2-2-2. Writer -->
+                <div class="card-text-font-size">
+                  <a href="" class="text-decoration-none text-dark fw-bold">
+                    Hans
+                  </a>
+                  위 image는 https://www.flaticon.com/search?word=profile&license=selection&style=all&order_by=4&type=icon에서 가져옴
+                  <a href="" class="text-decoration-none text-secondary">
+                    더 보기
+                  </a>
+                </div>
+                <!-- 2-1-2-2-2-2-3. Comments list -->
+                <a href="" class="text-decoration-none text-secondary card-text-font-size">
+                  댓글 54개 모두 보기
+                </a>
+                <!-- 2-1-2-2-2-2-4. Sample comments -->
+                <div class="card-text-font-size d-flex justify-content-between align-items-center">
+                  <div>
+                    <a href="" class="text-decoration-none text-dark fw-bold">
+                      Username3
+                    </a>
+                    Hi!
+                  </div>
+                  <img src="images/instagram-likes.png" alt="" class="feed-comments-heart-size ">
+                </div>
+                <div class="card-text-font-size d-flex justify-content-between align-items-center">
+                  <div>
+                    <a href="" class="text-decoration-none text-dark fw-bold">
+                      Username4
+                    </a>
+                    Hello!
+                  </div>
+                  <img src="images/instagram-likes.png" alt="" class="feed-comments-heart-size ">
+                </div>
+              </div>
+            </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- 2-2. aside -->
+    <aside class=" px-3 aside-width aside-display">
+      <div class="aside-fix-position">
+        <!-- 2-2-1. Header -->
+        <div class="d-flex justify-content-between align-items-center my-3 py-1">
+          <!-- 2-2-1-1. Left -->
+          <div class="d-flex justify-content-start">
+            <!-- 2-2-1-1-1. Profile image -->
+            <a href="" class="mx-1">
+              <img src="images/instagram-profile.png" alt="My profile" class="aside-myprofile-size">
+            </a>
+            <!-- 2-2-1-1-2. Profile names -->
+            <span  class="aside-font-size mx-3">
+              <a href="" class="text-decoration-none text-dark fw-bold">
+                _Hans
+              </a>
+              <br>
+              조항준
+            </span>
+          </div>
+          <!-- 2-2-1-2. Right -->
+          <a href="" class="text-decoration-none fw-bold aside-font-size">
+            전환
+          </a>        
+        </div>
+        <!-- 2-2-2. Recommends -->
+        <div>
+          <!-- 2-2-2-1. Header -->
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="text-secondary fw-bold aside-font-size">
+              회원님을 위한 추천
+            </div>
+            <a href="" class="text-decoration-none text-dark fw-bold aside-font-size">
+              모두 보기
+            </a>
+          </div>
+          <!-- 2-2-2-2. Recommend lists -->
+          <div class="d-flex justify-content-between align-items-center my-3">
+            <!-- 2-2-2-2-1. Left -->
+            <div class="d-flex justify-content-start">
+              <!-- 2-2-2-2-1-1. Profile image -->
+              <a href="" class="me-2">
+                <img src="images/instagram-friend1.png" alt="My profile" class="recommend-profile-size">
+              </a>
+              <!-- 2-2-2-2-1-2. Profile names -->
+              <span class="aside-font-size">
+                <a href="" class="text-decoration-none text-dark fw-bold">
+                  Username2
+                </a>
+                <br>
+                <div class="text-secondary">
+                  Username3 님 외 1명이 팔로우합..
+                </div>
+              </span>
+            </div>
+            <!-- 2-2-1-2. Right -->
+            <a href="" class="text-decoration-none fw-bold aside-font-size">
+              팔로우
+            </a>        
+          </div>
+          <div class="d-flex justify-content-between align-items-center my-3">
+            <!-- 2-2-2-2-1. Left -->
+            <div class="d-flex justify-content-start">
+              <!-- 2-2-2-2-1-1. Profile image -->
+              <a href="" class="me-2">
+                <img src="images/instagram-friend1.png" alt="My profile" class="recommend-profile-size">
+              </a>
+              <!-- 2-2-2-2-1-2. Profile names -->
+              <span class="aside-font-size">
+                <a href="" class="text-decoration-none text-dark fw-bold">
+                  Username3
+                </a>
+                <br>
+                <div class="text-secondary">
+                  Username3 님 외 1명이 팔로우합..
+                </div>
+            </div>
+            <!-- 2-2-1-2. Right -->
+            <a href="" class="text-decoration-none fw-bold aside-font-size">
+              팔로우
+            </a>        
+          </div>
+          <div class="d-flex justify-content-between align-items-center my-3">
+            <!-- 2-2-2-2-1. Left -->
+            <div class="d-flex justify-content-start">
+              <!-- 2-2-2-2-1-1. Profile image -->
+              <a href="" class="me-2">
+                <img src="images/instagram-friend1.png" alt="My profile" class="recommend-profile-size">
+              </a>
+              <!-- 2-2-2-2-1-2. Profile names -->
+              <span  class="aside-font-size">
+                <a href="" class="text-decoration-none text-dark fw-bold">
+                  Username4
+                </a>
+                <br>
+                <div class="text-secondary">
+                  Username3 님 외 1명이 팔로우합..
+                </div>
+            </div>
+            <!-- 2-2-1-2. Right -->
+            <a href="" class="text-decoration-none fw-bold aside-font-size">
+              팔로우
+            </a>        
+          </div>
+        </div>
+        <!-- 2-2-3. Footer -->
+        <div class="aside-footer-font-size mt-4">
+          <!-- 2-2-3-1. First row -->
+          <div>
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              소개
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              도움말
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              홍보 센터
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              API
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              채용 정보
+            </a>
+            ·
+          </div>
+          <!-- 2-2-3-2. Second row -->
+          <div>
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              개인정보처리방침
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              약관
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              위치
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              인기 계정
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              해시태그
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              언어
+            </a>
+          </div>
+          <br>
+          <!-- 2-2-3-3. Third row -->
+          <div class="aside-footer-font-color">
+            © 2021 INSTAGRAM FROM FACEBOOK
+          </div>
+        </div>
+      </div>
+    </aside>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

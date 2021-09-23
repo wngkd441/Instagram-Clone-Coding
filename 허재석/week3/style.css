@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+form input {
+  background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png);
+  background-position: 60px center;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+
+  padding: 5px 5px;
+  text-indent: 30px;
+  
+  width: 120px;
+}
+.profile-img{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.first {
+  width: 100%;
+  /* border: 1px solid lightgray; */
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .first {
+    width: 100%;
+
+    height: 100px;
+  }
+  .above .profile-img  {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (max-width: 700px) {
+  .nav-search {
+    display: none;
+  }
+}
+.above {
+  display: flex;
+  flex-direction: row;
+}
+.above2 {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.abovetext {
+  font-size: 160%;
+}
+
+.above2 button {
+  width: 200px;
+  background-color: #0095F6;
+}
+
+.img {
+  height: 400px;
+  width: 400px;
+}
+
+.carousel-indicators .ind {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.review {
+  display: inline;
+}
+
+@media (max-width: 700px) {
+  .img {
+    width: 100px;
+    height: 100px;
+    
+  }
+}

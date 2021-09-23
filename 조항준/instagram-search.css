@@ -1,0 +1,122 @@
+.navbar-size {
+  width: 900px;
+}
+
+.navbar-margin {
+  margin: auto;
+}
+
+@media (max-width: 527px) {
+  .input-display {
+    display: none;
+  }
+}
+
+@media (max-width: 982px) {
+  .navbar-margin {
+    margin: 5px;
+  }
+}
+
+
+.input1 {
+  width: 210px;
+  border-color: lightslategray;
+  border-radius: 2px;
+  border: 0.01px solid;
+  text-align: center;
+  background-position: 70px;
+  background-image: url('http://www.clker.com/cliparts/z/1/T/u/9/2/search-icon-hi.png');
+  background-size: 15px;
+  background-repeat: no-repeat;
+  color: gray;
+  font-size: 14px;
+}
+
+.input1:focus {
+  text-indent: 0;
+  text-align: start;
+  background-image: none;
+  background-position: -10px center;
+}
+
+.nav-icon-size {
+  width: 25px;
+}
+
+.section-loc {
+  margin: 100px auto;
+  width: 900px;
+}
+
+.main-img-size {
+  width: 200px;
+}
+
+.main-title-size {
+  flex: 0 0 auto;
+  width: 26%;
+  margin-left: 5%;
+}
+
+.btn-size {
+  padding: 0rem 1rem;
+  width: 100%;
+  height: 30px;
+}
+
+.article-img-size {
+  width: 280px;
+  height: 280px;
+}
+
+.row-margin {
+  margin-bottom: 60px;
+}
+
+.modal-size {
+  max-width: 900px;
+}
+
+.my-modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0rem;
+  height: 600px;
+}
+
+.carousel-img-size{
+  width: 65%
+}
+
+.modal-section-size {
+  width: 35%;
+}
+
+.modal-header-size {
+  height: 80px;
+}
+
+.modal-profile-size {
+  width: 45px;
+}
+
+.modal2-radius {
+  border-radius: 4%;
+}
+
+.modal2-size {
+  width: 384px;
+}
+
+.modal2-font-size {
+  font-size: 13px;
+}
+
+.modal-icon-size {
+  width: 30px;
+}
+
+.modal-article-size {
+  height: 62%;
+}

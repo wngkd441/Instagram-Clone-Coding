@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="instagram_search.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body class="body-margin">
+  <!-- 1. Navbar -->
+  <nav class="navbar navbar-light bg-light border-bottom fixed-top">
+    <!-- 1-1. Container -->
+    <div class="container-fluid justify-content-between mx-5">
+      <!-- 1-1-1. Navbar-brand -->
+      <a href="">
+        <img src="images/Instagram_logo.png" alt="instagram-letter" height="33">
+      </a>
+      <!-- 1-1-2. Search -->
+      <input type="text" placeholder="검색" class="input-placeholder input-display">
+      <!-- 1-1-3. Lists -->
+      <div class="navbar-nav flex-row">
+        <a class="nav-link mx-2" href="#">
+          <img src="images/house-black-silhouette-without-door.png" alt="Home" class="nav-icon-size">
+        </a>
+        <a class="nav-link mx-2" href="#">
+          <img src="images/send.png" alt="DM" class="nav-icon-size">
+        </a>
+        <a class="nav-link mx-2" href="#">
+          <img src="images/compass.png" alt="Find" class="nav-icon-size">
+        </a>
+        <a class="nav-link mx-2" href="#">
+          <img src="images/heart.png" alt="Likes" class="nav-icon-size">
+        </a>
+        <a class="nav-link mx-2" href="#">
+          <img src="images/apple.jpeg" alt="My profile" class="nav-icon-size">
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid justify-content-between">
+      <a class="navbar-brand" href="#">
+        <img src="images/Instagram_logo.png" alt="instagram logo" height="33">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav> -->
+  <div class="d-flex flex-column">
+    <div class="d-grid justify-content-center">
+      <div class="d-flex">
+        <div class="box" style="background: #BDBDBD;">
+          <img class="profile" src="images/cota.jpg">
+        </div>
+        <div class="d-flex flex-column my-3 shop-margin">
+          <div class="d-flex mb-0">
+            <h2>#</h2>
+            <h2>검색어</h2>
+          </div>
+          <div class="d-flex my-auto mt-0 ms-1">
+            <p>게시물</p>
+            <p>30</p>
+          </div>      
+          <button class="btn btn-primary" type="button">팔로우</button>
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <p class="p-margin">인기 게시물</p>
+        <div class="d-flex flex-column">
+          <div class="d-flex">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">  
+          </div>
+        
+          <div class="d-flex ">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">  
+          </div>
+
+          <div class="d-flex ">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">  
+          </div>
+        </div>
+      </div>
+      <div class="my-5">
+        <p class="p-margin">최근 게시물</p>
+        <div class="d-flex flex-column">
+          <div class="d-flex ">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">  
+          </div>
+        
+          <div class="d-flex ">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">  
+          </div>
+
+          <div class="d-flex ">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">
+            <img class="box_picture" src="images/apple.jpeg" alt="picture">  
+          </div>
+        </div>
+      </div>
+      <footer class="d-grid justify-content-center">
+        <div class="aside-footer-font-size mt-4">
+          <!-- 2-2-3-1. First row -->
+          <div>
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              소개
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              도움말
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              홍보 센터
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              API
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              채용 정보
+            </a>
+            ·
+          </div>
+          <!-- 2-2-3-2. Second row -->
+          <div>
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              개인정보처리방침
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              약관
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              위치
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              인기 계정
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              해시태그
+            </a>
+            ·
+            <a href="" class="text-decoration-none aside-footer-font-color">
+              언어
+            </a>
+          </div>
+          <br>
+          <!-- 2-2-3-3. Third row -->
+          <div class="aside-footer-font-color">
+            © 2021 INSTAGRAM FROM FACEBOOK
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- My Bootstrap css -->
+  <link rel="stylesheet" href="insta-boot.css">
+  <!-- My css -->
+  <link rel="stylesheet" href="instagram-search.css">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/instagram-logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/instagram-logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/instagram-logo.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <title>Hans' Search</title>
+</head>
+<body>
+  <!-- 1. Navbar -->
+  <nav class="navbar navbar-light bg-light border-bottom fixed-top navbar-margin">
+    <!-- 1-1. Container -->
+    <div class="container-fluid justify-content-between px-0 navbar-size">
+      <!-- 1-1-1. Navbar-brand -->
+      <a href="">
+        <img src="images/instagram-letter.png" alt="instagram-letter">
+      </a>
+      <!-- 1-1-2. Search -->
+      <input type="text" placeholder="검색" class="input1">
+      <!-- 1-1-3. Lists -->
+      <div class="navbar-nav flex-row">
+        <a class="nav-link mx-2" href="#">
+          <img src="images/instagram-home.png" alt="Home" class="nav-icon-size">
+        </a>
+        <a class="nav-link mx-2" href="#">
+          <img src="images/instagram-dm.png" alt="DM" class="nav-icon-size">
+        </a>
+        <a class="nav-link mx-2" href="#">
+          <img src="images/instagram-find.png" alt="Find" class="nav-icon-size">
+        </a>
+        <a class="nav-link mx-2" href="#">
+          <img src="images/instagram-likes.png" alt="Likes" class="nav-icon-size">
+        </a>
+        <a class="nav-link mx-2" href="#">
+          <img src="images/instagram-profile.png" alt="My profile" class="nav-icon-size">
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 2. Section -->
+  <section class="section-loc">
+    <!-- 2.1 Header -->
+    <header class="d-grid ">
+      <div class="row">
+        <img src="images/instagram-profile.png" alt="main img" class="main-img-size col-1">
+        <div class="main-title-size">
+          <span class="fs-3">#쿠지라이식라면</span>
+          <p class="fw-bold">게시물 4,544</p>
+          <br>
+          <button type="button" class="btn btn-primary btn-size">팔로우</button>
+        </div>
+      </div>
+    </header>
+    <!-- 2.2 Aricles -->
+    <article class="mt-5" >
+      <p class="fw-bold">인기 게시물</p>
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="">
+          <img src="images/Article1.jpg" alt="article1" class="article-img-size">
+        </a>
+        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="">
+          <img src="images/Article2.jpg" alt="article2" class="article-img-size">
+        </a>
+        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="">
+          <img src="images/Article3.jpg" alt="article3" class="article-img-size">
+        </a>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="">
+          <img src="images/Article4.jpg" alt="article4" class="article-img-size">
+        </a>
+        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="">
+          <img src="images/Article5.jpg" alt="article5" class="article-img-size">
+        </a>
+        <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="">
+          <img src="images/Article6.jpg" alt="article6" class="article-img-size">
+        </a>
+      </div>
+      <!-- Modal -->
+      <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-size">
+          <div class="modal-content ">
+            <div class="my-modal-body d-flex">
+              <!-- left -->
+              <div id="carouselExampleControls" class="carousel slide carousel-img-size" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/Article1.jpg" class="d-block w-100 h-100" alt="article1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Article2.jpg" class="d-block w-100 h-100" alt="article2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Article5.jpg" class="d-block w-100 h-100" alt="article5">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- right -->
+              <section class="modal-section-size">
+                <header class="d-flex modal-header-size justify-content-between align-items-center border-bottom">
+                  <div class="mx-3">
+                    <img src="images/instagram-profile.png" alt="" class="modal-profile-size me-1">
+                    <a href="" class="text-decoration-none text-dark fw-bold">travelme.insta</a>
+                    ·
+                    <a href="" class="text-decoration-none">팔로우</a>
+                  </div>
+                  <div class="me-3">
+                    <button type="button" class="btn three-dot-font" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                      <div class="fw-bold">...</div>
+                    </button>
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered modal2-size">
+                        <div class="modal-content modal2-radius">
+                          <div class="modal-body modal2-font-size">
+                            <a href="#" class="text-danger fw-bold text-center">
+                            <p>신고</p>
+                            </a>
+                            <hr>
+                            <a href="#" class="text-danger fw-bold text-center">
+                              <p>팔로우 취소</p>
+                            </a>
+                            <hr>
+                            <a href="#" class="text-dark text-center">
+                              <p>게시물로 이동</p>
+                            </a>
+                            <hr>
+                            <a href="#" class="text-dark text-center">
+                              <p>공유 대상...</p>
+                            </a>
+                            <hr>
+                            <a href="#" class="text-dark text-center">
+                              <p>링크 복사</p>
+                            </a>
+                            <hr>
+                            <a href="#" class="text-dark text-center">
+                              <p>퍼가기</p>
+                            </a>
+                            <hr>
+                            <a href="#" class="text-dark text-center">
+                              <p>취소</p>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </header>
+                <article class="mx-3 mt-3 border-bottom modal-article-size">
+                  <img src="images/instagram-profile.png" alt="" class="modal-profile-size me-1">
+                  <a href="" class="text-decoration-none text-dark fw-bold">travelme.insta</a>
+                  쉽고 맛있게! 누구나 따라할 수 있는 JMT 라면 레시피 5개
+                </article>
+                <div class="d-flex justify-content-between p-3 border-bottom">
+                  <!-- 2-1-2-2-2-1-1. Left -->
+                  <div>
+                    <a href="" class="feed-icon-size text-decoration-none">
+                      <img src="images/instagram-likes.png" alt="likes" class="modal-icon-size mx-1">
+                    </a>
+                    <a href="" class="feed-icon-size text-decoration-none">
+                      <img src="images/instagram-comments.png" alt="comments" class="modal-icon-size mx-1">
+                    </a>
+                    <a href="" class="feed-icon-size text-decoration-none">
+                      <img src="images/instagram-dm.png" alt="DM" class="modal-icon-size mx-1">
+                    </a>
+                  </div>
+                  <!-- 2-1-2-2-2-1-2. Right -->
+                  <a href="" class="feed-icon-size text-decoration-none">
+                    <img src="images/instagram-tag.png" alt="tag" class="modal-icon-size mx-1">
+                  </a>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mx-3 my-3">
+                  <div class="d-flex justify-content-start">
+                    <img src="images/instagram-smile.png" alt="smile" class="modal-icon-size me-2">
+                    <form action="">
+                      <input type="text" placeholder="댓글 달기..." class="" style="border:none;">
+                    </form>
+                  </div>
+                  <a href="" class="text-decoration-none">게시</a>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </article>
+    
+    
+  </section>
+
+  <!-- <link rel="stylesheet" href="bootstrap.js"> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

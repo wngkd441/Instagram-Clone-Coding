@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>  
+  <title>Profile</title>
+</head>
+<body>
+
+<!-- 사진 모달 -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-body p-0">
+        <div class="container">
+          <div class="row bg-light">
+            <!-- 모달 왼쪽 사진부분 -->
+            <div class="col col-8 p-0">
+              <!-- <img src="images/insta_photo/haxe-svd.jpg" alt="photo" class="img-fluid"> -->
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/insta_photo/haxe-svd.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/insta_photo/haxe-cut.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <!-- 모달 오른쪽 댓글 부분 -->
+            <div class="col col-4">
+              <div class="d-flex flex-column justify-content-end">
+                <div class="row row-1 row-cols-3">
+                  <div class="col col-2">
+                    <a href="profile.html"><img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"></a>
+                  </div>
+
+                  <div class="col col-6 m-1">
+                    <p>닉닉</p>
+                  </div>
+                  
+                  <div class="col col-3">
+                    <a href="">Follow</a>
+                  </div>
+
+                </div>
+                
+                <div class="row flex-fill">
+                  <p>모달모달</p>
+                  <p>달모달모</p>
+                  <p>모달달달</p>  
+                </div>
+                
+                <div class="row">
+                  <hr>
+                  <p>덧글</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</div>
+<!-- 사진 모달 2 -->
+<div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-body p-0">
+        <div class="container">
+          <div class="row bg-light">
+            <!-- 모달 왼쪽 사진부분 -->
+            <div class="col col-8 p-0">
+              <!-- <img src="images/insta_photo/haxe-svd.jpg" alt="photo" class="img-fluid"> -->
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/insta_photo/부채살.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/insta_photo/오뎅나베.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/insta_photo/햄버거.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <!-- 모달 오른쪽 댓글 부분 -->
+            <div class="col col-4">
+              <div class="d-flex flex-column justify-content-end">
+                <div class="row row-1 row-cols-3">
+                  <div class="col col-2">
+                    <a href="profile.html"><img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle"></a>
+                  </div>
+
+                  <div class="col col-6 m-1">
+                    <p>C</p>
+                  </div>
+                  
+                  <div class="col col-3">
+                    <a href="">Follow</a>
+                  </div>
+
+                </div>
+                
+                <div class="row flex-fill">
+                  <p>모달모달</p>
+                  <p>달모달모</p>
+                  <p>모달달달</p>  
+                </div>
+                
+                <div class="row">
+                  <hr>
+                  <p>덧글</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</div>
+
+
+  <!-- 헤더. 사소한 간격 -->
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <div class="d-flex col-12 align-items-center justify-content-between">
+        <a href="/" class="d-flex col-2 align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <img src="images/800px-Instagram_logo.svg.png" class="bi me-2"  height="32" role="img" aria-label="Bootstrap"></img>
+        </a>
+
+        
+        <form class="col-lg-3 d-none d-lg-block mb-3 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+        <div class="d-flex row">
+          <ul class="nav col col-lg-auto me-lg-auto mb-2 justify-content-end mb-md-0">
+              <div class="row row-cols-4">
+                <li class="p-0"><a href="#" class="nav-link col link-secondary"><img src="images/icons/home.png" height="32"></a></li>
+                <li class="p-0"><a href="#" class="nav-link col link-dark"><img src="images/icons/DM.png" height="32"></a></li>
+                <li class="p-0"><a href="#" class="nav-link col link-dark"><img src="images/icons/7136510.png" height="32"></a></li>
+                <li class="p-0"><a href="#" class="nav-link col link-dark"><img src="images/icons/images.png" height="32"></a></li>
+              </div>
+            </ul>
+          <div class="dropdown col col-1 text-end">
+            <a href="#" class="link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
+              <li><a class="dropdown-item" href="#">New project...</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- 본문!!! -->
+  <section class="container mt-3 mb-3">
+    <!-- 앞의 원형 사진,#싸피, 3,203 포스트.  -->
+    <div class="container">
+      <div class="row row-cols-2">
+        <div class="col"> 사진</div>
+        <div class="col">설명 및 버튼 </div>
+      </div>
+    </div>
+    <!-- 본-문 -->
+    <div class="container">
+      <div class="row row-cols-3 mt-3">
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <img src="images/insta_photo/haxe1.jpg" class="card-img p-1" alt="..." >
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/골뱅이소면.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/까나페.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/오뎅나베.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/비건 두부 파스타.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/코코뱅.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/반미.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/lemonpound_2.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/lemonpound_2.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <hr>
+    <h1>results</h1>
+    <!-- 일반 -->
+    <div class="container">
+      <div class="row row-cols-3 mt-3">
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <img src="images/insta_photo/haxe1.jpg" class="card-img p-1" alt="..." >
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/골뱅이소면.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/까나페.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/오뎅나베.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/비건 두부 파스타.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/코코뱅.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/반미.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/lemonpound_2.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+        <div class="col card text-white text-end p-0 border-0" data-bs-toggle="modal" data-bs-target="#Modal2">
+          <img src="images/insta_photo/lemonpound_2.jpg" class="card-img p-1" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">🙈📅</h5>
+          </div>
+        </div>
+
+      </div>
+    </div
+
+
+
+  </section>
+
+
+</body>
+</html>

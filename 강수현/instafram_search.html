@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="instagram_search.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="./favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <title>Instagram</title>
+</head>
+<body>
+  <!-- 헤더 -->
+  <header>
+    <div class="flex-container">
+      <!-- 로고 -->
+      <div class="mt-1 for-search">
+        <img src="./feed/intragram_feed_logo.png" alt="logo">
+      </div>
+
+      <!-- 검색 -->
+      <form action="#" class="search">
+        <input type="search" name="search" placeholder="검색">
+      </form>
+
+
+      <!-- 메뉴 아이콘 -->
+      <div class="flex-icon">
+        <a href="#">
+          <img src="./feed/home.png" alt="home">
+        </a>
+        <a href="#">
+          <img src="./feed/message.png" alt="message">
+        </a>
+        <a href="#">
+          <img src="./feed/explore.png" alt="explore">
+        </a>
+        <a href="#">
+          <img src="./feed/heart.png" alt="heart">
+        </a>
+        <a href="#">
+          <img src="./feed/profile.jpg" alt="profile" class="profile-img">
+        </a>
+      </div>
+    </div>
+  </header>
+ 
+  <article>
+    <section class="search-head">
+      <div>
+        <img src="./feed/profile.jpg" alt="#" class="head-img">
+      </div>
+      <div>
+        <p class="fs-3 mb-0">#싸피</p>
+        <p>게시물 951</p>
+        <button type="button" class="btn btn-primary">팔로우</button>
+      </div>
+
+    </section>
+      
+    <section>
+      <p>인기 게시물</p>
+      <div class="row row-cols-3 g-0 g-md-4">
+        <div class="col">
+          <div class="card h-100">
+            <a href="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="./feed/profile.jpg" class="card-img-top" alt="...">
+            </a>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-size modal-lg">
+                <div class="modal-content">
+          
+                  <div class="modal-body p-0 my-modal">
+                    <!-- 캐루셀 -->
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-interval="false">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./main/image3.jpg" class="d-block" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./main/image1.jpg" class="d-block" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./main/image2.jpg" class="d-block" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  
+                    <!-- 우측 글 -->
+                    <div class="my-post g-0">
+                      <div class="modal-profile border-bottom post-uploader">
+                    
+                        <div>
+                          <img src="./feed/profile.jpg" alt="#">
+                          <a href="#" class="text-decoration-none post-uploader-ID align-middle">user_ID</a>
+                          <a href="#" class="text-decoration-none follow ms-1">팔로우</a>
+                        </div>
+                        <div>
+                          <a href="#">
+                            <img src="./feed/more.png" alt="#moreModal" data-bs-toggle="modal" data-bs-target="#moreModal" style="width: 16px; height: 16px;">
+                          </a>
+
+                          <!-- more modal -->
+                          <div class="modal fade" id="moreModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content" style="width: 400px; margin: auto;">
+                                
+                                <div class="modal-body border-bottom more">
+                                  <a href="#" class="text-danger text-decoration-none">신고</a>  
+                                </div>
+                                <div class="modal-body border-bottom more">
+                                  <a href="#" class="text-black text-decoration-none">게시물로 이동</a>  
+                                </div>
+                                <div class="modal-body border-bottom more">
+                                  <a href="#" class="text-black text-decoration-none">공유 대상...</a>  
+                                </div>
+                                <div class="modal-body border-bottom more">
+                                  <a href="#" class="text-black text-decoration-none">링크 복사</a>  
+                                </div>
+                                <div class="modal-body border-bottom more">
+                                  <a href="#" class="text-black text-decoration-none">퍼가기</a>  
+                                </div>
+                                <div class="modal-body border-bottom more">
+                                  <a href="#" class="text-black text-decoration-none">취소</a>  
+                                </div>
+        
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                
+                      </div>
+                      <div class="modal-post">
+
+                      </div>
+
+                      <div class="modal-like border-top border-bottom">
+                        <div class="d-flex justify-content-between">
+                          <div>
+                            <a href="#" class="text-decoration-none">
+                              <img src="./feed/heart.png" alt="heart" class="modal-icon me-2">
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                              <img src="./feed/chat-bubble.png" alt="chat" class="modal-icon me-2">
+                            </a>
+                            <a href="#" class="text-decoration-none">
+                              <img src="./feed/message.png" alt="message" class="modal-icon">
+                            </a>
+                          </div>
+                          <div>
+                            <a href="#">
+                              <img src="./feed/ribbon.png" alt="ribbon" class="modal-icon">
+                            </a>
+                          </div>
+                        </div>
+                        <a href="#" class="text-decoration-none like-font">좋아요 31개</a>
+                        <a href="#" class="text-decoration-none date-font">7월 15일</a>
+                      </div>
+
+
+                      <div class="modal-comment">
+                        <div>
+                          <a href="#" class="text-decoration-none">
+                            <img src="./feed/happiness.png" alt="ribbon" class="modal-icon">
+                          </a>
+                          <input type="text" placeholder="댓글 달기..." class="border-0 ps-2 comment-font">
+                        </div>
+                        <a href="#" class="text-decoration-none">게시</a>
+                      </div>
+                    </div>
+
+
+
+                  </div>
+           
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img src="./feed/profile.jpg" class="card-img-top" alt="...">
+            </a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img src="./feed/profile.jpg" class="card-img-top" alt="...">
+            </a>          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img src="./feed/profile.jpg" class="card-img-top" alt="...">
+            </a>          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img src="./feed/profile.jpg" class="card-img-top" alt="...">
+            </a>          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <a href="">
+              <img src="./feed/profile.jpg" class="card-img-top" alt="...">
+            </a>          </div>
+        </div>
+      </div>
+
+
+      </div>
+    </section>
+  </article>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

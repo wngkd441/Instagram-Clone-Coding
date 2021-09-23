@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!-- Custom css -->
+  <link rel="stylesheet" href="instagram-login.css">
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/insta-logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/insta-logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/insta-logo.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- title -->
+  <title>Hans' Instagram</title>
+</head>
+<body>
+  <!-- 1. 화면 가운데의 사진 + 로그인 -->
+  <header class="d-flex justify-content-center mb-5 pb-4">
+  <!-- body와 그 안의 box 모두 mx가 없었음 = mx-auto로 정렬하지 않음 = flex 사용 -->
+    <!-- 1-1. 큰 박스 -->
+    <div class="container-fluid justify-content-center header-box-size py-4 px-5 mx-3">
+      <div class="row">
+        <!-- 1-1-1. 왼쪽에 사진(Carousel) -->
+        <div class="col-md-6 carousel-display">
+          <img src="images/iphone-cover.png" class="iphone-bg" alt="iphone-cover">
+          <div id="carouselExampleFade" class="carousel slide carousel-fade iphone-inner-size" data-bs-ride="carousel">
+            <!-- 1-1-1. 사진 part -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/sample.png" class="d-block carousel-image-size" alt="sample">
+              </div>
+              <div class="carousel-item">
+                <img src="images/sample2.png" class="d-block carousel-image-size" alt="sample2">
+              </div>
+              <div class="carousel-item">
+                <img src="images/sample3.png" class="d-block carousel-image-size" alt="sample3">
+              </div>
+            </div>
+            <!-- 1-1-2. button part -->
+           
+          </div>
+        </div>
+        <!-- 1-1-2. 오른쪽에 요소들 -->
+        <div class="col-6 text-center px-5 right-box-display">
+          <!-- 1-1-2-1. 위에 큰 박스 -->
+          <div class="border my-2 px-2">
+            <!-- 1-1-2-1-1. 인스타그램 로고 -->
+            <img src="images/Insta-letter.png" class="w-50 my-4" alt="insta-letter">
+            <!-- 1-1-2-1-2. 로그인 입력창 -->
+            <form action="" class="my-1 mx-4">
+              <!-- 1-1-2-1-2-1. ID input -->
+              <div class="my-2">
+                <input type="text" id="instaID" list="instaDatalists" class="form-control" placeholder="전화번호, 사용자 이름 또는 이메일">
+                <datalist id="instaDatalists">
+                  <option value="쿠키에">
+                  <option value="있는">
+                  <option value="입력 히스토리">
+                </datalist>
+              </div>
+              <!-- 1-1-2-1-2-2. Password input -->
+              <div class="my-2">
+                <input type="password" id="instaPassword" class="form-control" placeholder="비밀번호">
+              </div>
+              <!-- 1-1-2-1-2-3. Submit button -->
+              <div class="d-grid my-2">
+                <button type="submit" class="btn btn-primary">로그인</button>
+              </div>
+            </form>
+            <!-- 1-1-2-1-3. hr 사이의 글씨 -->
+            <div class="hr-sect mx-4 mt-3 mb-3">또는</div>
+            <!-- 1-1-2-1-4. Facebook으로 로그인 -->
+            <a href="#" class="text-decoration-none text-primary fw-bold my-1">
+              <p>
+                <img src="images/facebook-logo.png" class="facebook-logo" alt="facebook-logo">
+                Facebook으로 로그인
+              </p>
+            </a>
+            <!-- 1-1-2-1-5. 비밀번호 잊음 -->
+            <a href="#" class="text-decoration-none text-dark fs-6 my-1">
+              <p>비밀번호를 잊으셨나요?</p>
+              </a>
+          </div>
+          <!-- 1-1-2-2. 아래에 작은 박스 -->
+          <div class="border py-4 fs-6 my-3">
+            <div>계정이 없으신가요?
+              <a href="" class="text-decoration-none fw-bold">가입하기</a>
+            </div>
+          </div>
+          <!-- 1-1-2-3. 앱 다운로드 -->
+          <div class="text-center">
+            <!-- 1-2-3-1. 앱을 다운로드하세요. -->
+            <p>앱을 다운로드하세요.</p>
+            <!-- 1-2-3-2. Appstore Button -->
+            <div class="d-flex justify-content-center">
+              <!-- 1-2-3-2-1. Appstore -->
+              <a href="">
+                <img src="images/AppStore-Icon.png" class="store-logo-size" alt="AppStore">
+              </a>
+              <!-- 1-2-3-2-2. Google Play -->
+              <a href="">
+                <img src="images/GooglePlay-Icon.png" class="store-logo-size" alt="GooglePlay">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- 2. 아래에 링크들 -->
+  <footer class="d-flex flex-column justify-content-center">
+    <!-- 2-1. first row -->
+    <ul class="list-inline d-flex justify-content-center">
+      <li class="list-inline-item mx-2">
+        <a href="" class="text-decoration-none text-secondary">소개</a>
+      </li>
+      <li class="list-inline-item mx-2">
+        <a href="" class="text-decoration-none text-secondary">블로그</a>
+      </li>
+      <li class="list-inline-item mx-2">
+        <a href="" class="text-decoration-none text-secondary">채용 정보</a>
+      </li>
+      <li class="list-inline-item mx-2">
+        <a href="" class="text-decoration-none text-secondary">도움말</a>
+      </li>
+      <li class="list-inline-item mx-2">
+        <a href="" class="text-decoration-none text-secondary">API</a>
+      </li>
+      <li class="list-inline-item mx-2">
+        <a href="" class="text-decoration-none text-secondary">개인정보처리방침</a>
+      </li>
+      <li class="list-inline-item mx-2">
+        <a href="" class="text-decoration-none text-secondary">약관</a>
+      </li>
+      <li class="list-inline-item mx-2">
+        <a href="" class="text-decoration-none text-secondary">인기 계정</a>
+      </li>
+      <li class="list-inline-item mx-2">
+        <a href="" class="text-decoration-none text-secondary">해시태그</a>
+      </li>
+      <li class="list-inline-item mx-2">
+        <a href="" class="text-decoration-none text-secondary">위치</a>
+      </li>
+    </ul>
+    <!-- 2-2. second row -->
+    <ul class="list-inline d-flex justify-content-center">
+      <li class="list-inline-item mx-2 text-secondary">뷰티</li>
+      <li class="list-inline-item mx-2 text-secondary">댄스</li>
+      <li class="list-inline-item mx-2 text-secondary">피트니스</li>
+      <li class="list-inline-item mx-2 text-secondary">식음료</li>
+      <li class="list-inline-item mx-2 text-secondary">집 및 정원</li>
+      <li class="list-inline-item mx-2 text-secondary">음악</li>
+      <li class="list-inline-item mx-2 text-secondary">시각 예술</li>
+    </ul>
+    <!-- 2-3. Third row -->
+    <ul class="list-inline d-flex justify-content-center">
+      <li class="list-inline-item mx-2">
+        <div class="dropdown">
+          <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            한국어
+          </button>
+        </div>
+      </li>
+      <li class="list-inline-item mx-2">
+        <a href="" class="text-decoration-none text-secondary">© 2021 Instagram from Facebook</a>
+      </li>
+    </ul>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>

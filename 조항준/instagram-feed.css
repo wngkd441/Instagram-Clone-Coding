@@ -1,0 +1,226 @@
+.body-element-margin {
+  margin: 0px 10%;
+}
+
+.navbar-size {
+  width: 900px;
+}
+
+.navbar-margin {
+  margin: auto;
+}
+
+.section-display {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+}
+
+.aside-display {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.section-margin {
+  margin: 100px auto;
+}
+
+.section-size {
+  width: 1000px;
+}
+
+.feed-width {
+  width: 65%;
+}
+
+.modal-size {
+  width: 384px;
+}
+
+.modal-radius {
+  border-radius: 4%;
+}
+
+.modal-font-size {
+  font-size: 13px;
+}
+
+@media (max-width: 527px) {
+  .input-display {
+    display: none;
+  }
+}
+
+@media (max-width: 623px) {
+  .section-margin {
+    margin: 50px auto;
+  }  
+}
+
+@media (max-width: 722px) {
+  .modal-size {
+    width: 244px;
+  }
+  
+}
+@media (max-width: 982px) {
+  .navbar-margin {
+    margin: 5px;
+  }
+  .aside-display {
+    display: none;
+  }
+  .section-display {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .section-size {
+    width: 600px;
+  }
+  .feed-width {
+    width: 100%;
+  }
+}
+
+
+input {
+  width: 210px;
+  border-color: lightslategray;
+  border-radius: 2px;
+  border: 0.01px solid;
+  padding-right: 40px;
+  text-align: center;
+  text-indent: 40px;
+  background-position: center;
+  background-image: url('http://www.clker.com/cliparts/z/1/T/u/9/2/search-icon-hi.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: gray;
+  font-size: 14px;
+}
+
+/* input::placeholder {
+  
+} */
+
+input:focus {
+  text-indent: 0;
+  text-align: start;
+  background-image: none;
+  background-position: -10px center;
+}
+
+/* input::placeholder:focus {
+  background-image: none;
+} */
+
+.nav-icon-size {
+  width: 25px;
+}
+
+
+.story-overflow {
+  overflow: auto;
+}
+
+.story-padding {
+  padding: 15px;
+}
+
+.story-profile-size {
+  width: 60px;
+}
+
+.card-width {
+  width: 75px;
+}
+
+.card-font {
+  font-size: 13px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+.name:hover {
+  text-decoration: underline;
+}
+
+.name-display {
+  position: relative;
+  visibility: hidden;
+  font-size: 0.1px;
+  left: 3rem;
+  top: -3rem;
+}
+
+.name-display:hover {
+  visibility: visible;
+  position: absolute;
+  left: 100px;
+  top: 500px;
+  width: 1000px;
+  height: 1000px;
+  background-color: red;
+}
+
+.article-margin-top {
+  margin-top : 30px;
+}
+
+.feed-header-profile-size {
+  width: 30px;
+}
+
+.three-dot-font {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.feed-icon-size {
+  width: 30px;
+}
+
+.feed-card-image-size {
+  width: 100%;
+  height: 400px;
+}
+
+.card-text-font-size {
+  font-size: 14px;
+}
+
+.feed-comments-heart-size {
+  width: 10px;
+}
+
+.aside-fix-position {
+  position: fixed;
+  /* left: 1170px; */
+  top: 110px;
+}
+
+.aside-width {
+  width: 330px;
+}
+
+.aside-myprofile-size {
+  width: 40px;
+}
+
+.aside-font-size {
+  font-size: 13px;
+}
+
+.recommend-profile-size {
+  width: 30px;
+}
+
+.aside-footer-font-size {
+  font-size: 11px;
+}
+
+.aside-footer-font-color {
+  color: rgba(148, 144, 151, 0.692);
+}

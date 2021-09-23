@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="login.css">
+
+  <title>Login</title>
+</head>
+<body>
+  <!-- 전체 로그인 창 -->
+  <div class="container">
+    <div class="row">
+      <!-- 왼쪽 부분 -->
+      <div class="col col-6 d-none d-lg-block"> 
+        <div class="mt-5">
+          <div class="card bg-dark border-white text-white">
+            <!-- 왼쪽 - 카드 배경 이미지 -->
+            <img src="images/XSgold.png" class="card-img" alt="...">
+            <!-- 카드: 캐로슬 들어갈 부분 -->
+            <div class="card-img-overlay container">
+
+              <!-- 캐로슬 -->
+              <div class="row justify-content-center">
+                <div class="col col-5">
+                  <div id="carouselExampleSlidesOnly" class="carousel slide p-3" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/cat01.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/cat02.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/cat03.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 오른쪽 부분.  -->
+      <div class="col col-12 col-lg-6">
+        <div class="">
+          <!-- 로그인 카드 -->
+          <div class="card container mt-5 mb-2 mr-2" style="">
+            <div class="row justify-content-center">
+              <div class="col col-6 mt-2">
+              <img src="images/800px-Instagram_logo.svg.png" class="card-img-top" alt="INSTA_LOGO">
+              </div>
+            </div>
+            <div class="row">
+              <div class="card-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label"></label>
+                    <input type="email" class="form-control" placeholder="Phone number, username, or email" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="mb-3">
+                    <input type="password" class="form-control" placeholder="password" id="exampleInputPassword1">
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="button">Log In</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <img src="images/grey-line-png-6.png" class="col-4" alt="------">
+              <div class="text-muted fw-bold text-center col-2">OR</div>
+              <img src="images/grey-line-png-6.png" class="col-4" alt="------">
+            </div>
+            <a href="#" class="text-muted text-decoration-none text-center mb-3">Forgot password?</a>
+
+          </div>
+          
+          <!-- 싸인 업 -->
+          <div class="card">
+            <div class="card-body text-center">
+              Don't have an account? <a href="#" class="tw-bold text-decoration-none"> Sign up <a>
+            </div>
+          </div>
+
+          <!-- 겟 더 앱! -->
+          <div class="container">
+            <div class="justify-content-center text-center">
+              <div class="row justify-content-center mt-1">
+                <h6 class="text-center">get the app</h6>
+              </div>
+              <div class="row justify-content-center">
+                <a href="#" class="col col-5 m-1"><img src="images/down_appstore.png" class="col-12" alt="appstore"></a>
+                <a href="#" class="col col-5 m-1"><img src="images/down_google.png" class="col-12" alt="appstore"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- 푸터: 거의 완료 -->
+  <!-- 푸터 아래쪽 언어 드랍박스 서식 수ㅅ정.    -->
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Blog</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Jobs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Help</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Api</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Terms</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Top Accounts</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Hashtags</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Locations</a></li>
+    </ul>
+    <!-- 언어 선택 박스 -->
+    <div class="d-flex justify-content-center align-items-center">
+      <select aria-label="Switch Display Language" class="text-muted px-2">
+      <option value="af">Afrikaans</option>
+      <option value="cs">Čeština</option>
+      <option value="da">Dansk</option>
+      <option value="de">Deutsch</option>
+      <option value="el">Ελληνικά</option>
+      <option value="en">English</option>
+      <option value="en-gb">English (UK)</option>
+      <option value="es">Español (España)</option>
+      <option value="es-la">Español</option>
+      <option value="fi">Suomi</option>
+      <option value="fr">Français</option>
+      <option value="id">Bahasa Indonesia</option>
+      <option value="it">Italiano</option>
+      <option value="ja">日本語</option>
+      <option value="ko">한국어</option>
+      <option value="ms">Bahasa Melayu</option>
+      <option value="nb">Norsk</option>
+      <option value="nl">Nederlands</option>
+      <option value="pl">Polski</option>
+      <option value="pt-br">Português (Brasil)</option>
+      <option value="pt">Português (Portugal)</option>
+      <option value="ru">Русский</option>
+      <option value="sv">Svenska</option>
+      <option value="th">ภาษาไทย</option>
+      <option value="tl">Filipino</option>
+      <option value="tr">Türkçe</option>
+      <option value="zh-cn">中文(简体)</option>
+      <option value="zh-tw">中文(台灣)</option>
+      <option value="bn">বাংলা</option>
+      <option value="gu">ગુજરાતી</option>
+      <option value="hi">हिन्दी</option>
+      <option value="hr">Hrvatski</option>
+      <option value="hu">Magyar</option>
+      <option value="kn">ಕನ್ನಡ</option>
+      <option value="ml">മലയാളം</option>
+      <option value="mr">मराठी</option>
+      <option value="ne">नेपाली</option>
+      <option value="pa">ਪੰਜਾਬੀ</option>
+      <option value="si">සිංහල</option>
+      <option value="sk">Slovenčina</option>
+      <option value="ta">தமிழ்</option>
+      <option value="te">తెలుగు</option>
+      <option value="vi">Tiếng Việt</option>
+      <option value="zh-hk">中文(香港)</option>
+      <option value="bg">Български</option>
+      <option value="fr-ca">Français (Canada)</option>
+      <option value="ro">Română</option>
+      <option value="sr">Српски</option>
+      <option value="uk">Українська</option>
+      </select>
+      <p class="text-center text-muted px-2">© 2021 Instagram from Facebook</p>
+    </div>
+  </footer>
+
+</body>
+</html>
